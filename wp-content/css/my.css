@@ -1,0 +1,57 @@
+.maint-div {
+	width: 92.5%;
+	padding: 5px;
+	margin-top: 50px;
+}
+.maint-div-3 {
+	width: 70%;
+	color: #fff;
+	border-radius: 10px;
+	border: 3px solid #14111C;
+	padding: 20px;
+}
+.maint-div-3>table{color: #000};
+.maint-div-3>p{color: #000};
+.hapus-keranjang {
+	background: none;
+	color: #000;
+	border: none;
+	font-family: comic sans ms;
+	font-size: 30px;
+	float: right;
+}
+.hapus-keranjang:hover {
+	color: #f00;
+}
+.img-pesanan { 
+	width: 25%;
+	float: left;
+	padding: 5px;
+	margin-left: 30px;
+	margin-right: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;
+	border-radius: 10px;
+}
+#produk-beli {
+	height: 350px;
+}
+@media screen and (max-width: 800px) {
+	.img-pesanan {
+		width: 30%;
+		align-content: center;
+		float: none;
+	}
+	#produk-beli {
+		height: 400px;
+	}
+}
+@media screen and (max-width: 550px) {
+	.img-pesanan {
+		width: 50%
+	}
+	#produk-beli {
+		height: 450px;
+	}
+}

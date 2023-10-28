@@ -1,0 +1,125 @@
+/*Sidenav*/
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+/*End Sidenav*/
+
+
+a {text-decoration: none}
+		.a-link {
+			color: #f44332;
+		}
+		.a-link:hover {
+			color: #2196f3;
+		}
+		.btn-tm {
+			color: #fff;
+			padding: 10px;
+			background-color: #2196F3;
+			border-radius: 20px;
+			margin-bottom: 0px;
+			margin-left: 10px;
+			font-family: comic sans ms;
+		}
+		.btn-tm:hover {
+			box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important
+		}
+		.btn-sm {
+			width: 25%;
+			color: #fff;
+			padding: 10px;
+			background-color: #2196F3;
+			border-radius: 20px;
+			font-family: comic sans ms;
+		}
+		.btn-sm:hover {
+			background-color: #f44332
+		}
+		.shadow:hover{
+			box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important
+		}
+		.tb {
+			margin-left: 50px;
+			margin-right: 50px;
+			font-family: comic sans ms;
+		}
+		.txt-menu {
+			color :#fff;
+			font-family: comic sans ms;
+		}
+		.txt-menu:hover {
+			color :#87CEEB;
+		}
+		.tb-p {
+			padding: 8px;
+			border :1px solid #909090;
+		}
+		.tb-pa {
+			border-collapse: collapse;
+		}
+		.tb-hd {
+			background-color: #4CAF50;
+		}
+		.input-data {
+			border-bottom: 4px solid #1a75ff; 
+			width: 30%;
+			padding: 7px;
+			border-top: none;
+			border-left: none;
+			border-right: none;
+		}
+		.input-data-ket {
+			border-bottom: 4px solid #f44332; 
+			width: 30%;
+			padding: 7px;
+			border-top: none;
+			border-left: none;
+			border-right: 4px solid #f44332;
+		}
